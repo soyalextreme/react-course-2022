@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 10px 10px rgb(153, 153, 153);
+  margin-bottom: 2rem;
+}
+
+.Header-Logo {
+  width: 20%;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.Header-Logo > img {
+  width: 90px;
+}
+
+.Nav {
+  width: 30%;
+  padding: 2rem;
+}
+
+.Nav-List {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+
+.Nav-List__element {
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Nav-List__element:hover {
+  transform: scale(1.2);
+}
+
+.MainContent {
+  padding: 10rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.MainContent > h1 {
+  font-size: 2rem;
+}
+
+.MainContent-List {
+  list-style: none;
+  text-align: start;
+  width: 60%;
+  margin: auto;
+}
+
+.MainContent-List__element {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.MainContent-List__element::before {
+  content: "⚛  ";
+}
+
+.Footer {
+  background-color: grey;
+  padding: 3rem;
+  padding-bottom: 8rem;
+  text-align: center;
+}
+
+.Footer__content {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
