@@ -1,3 +1,6 @@
+// import React from "react";
+// import ReactDOM from "react-dom";
+
 const Content = () => (
     <section>
         <ul>
@@ -16,12 +19,12 @@ const Header = () => {
     const title = "Fun Fact about react";
     const imgInfo = {
         alt: "Logo React",
-        src: "./static/logo.png"
+        src: "./static/react-logo.png"
     }
 
     return (
         <header>
-            <img src={imgInfo.src} alt={imgInfo.alt} />
+            <img src={imgInfo.src} alt={imgInfo.alt} width="40px" />
             <h1>{title}</h1>
         </header>
     );
@@ -33,7 +36,6 @@ const Body = () => (
         <Header />
         <Content />
     </div>
-
 );
 
 // render params : 1st element to render, selector to place the element
